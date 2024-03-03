@@ -282,9 +282,39 @@ select:-webkit-autofill:focus {
   color: var(--text-color-50);
 }
 
-/* Tabs  */
-.tabs {
+/* Feature-tab-panel  */
+.feature-tab-panel {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
+
+.feature-tab-panel__img {
+  margin-right: 30px;
+  object-fit: contain;
+}
+
+.feature-tab-panel__info {
+  max-width: 445px;
+}
+
+.feature-tab-panel__title {
+  margin-top: 0;
+  margin-bottom: 16px;
+  font-size: 32px;
+  line-height: 52px;
+  font-weight: 500;
+  color: var(--text-color);
+}
+
+.feature-tab-panel__text {
+  margin-top: 0;
+  margin-bottom: 32px;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+/* Tabs  */
 .tabs__list {
   display: flex;
   justify-content: center;
@@ -322,6 +352,22 @@ select:-webkit-autofill:focus {
 
 .tabs__link:active {
   opacity: 0.6;
+}
+
+.tabs__panels {
+  padding-top: 75px;
+  padding-bottom: 165px;
+  background-image: url("../img/blue-pill-bg.png");
+  background-repeat: no-repeat;
+  background-position: calc(50% - 580px) 256px;
+}
+
+.tabs__panel {
+  display: none;
+}
+
+.tabs__panel--active {
+  display: block;
 }
 
 /* Site-header  */
