@@ -357,9 +357,9 @@ select:-webkit-autofill:focus {
 .tabs__panels {
   padding-top: 75px;
   padding-bottom: 165px;
-  background-image: url("../img/blue-pill-bg.png");
+  background-image: url("../img/blue-pill-bg.svg");
   background-repeat: no-repeat;
-  background-position: calc(50% - 580px) 256px;
+  background-position: calc(50% - 580px) 156px;
 }
 
 .tabs__panel {
@@ -394,9 +394,9 @@ select:-webkit-autofill:focus {
 .hero {
   padding-top: 66px;
   padding-bottom: 105px;
-  background-image: url("../img/blue-pill-bg.png");
+  background-image: url("../img/blue-pill-bg.svg");
   background-repeat: no-repeat;
-  background-position: calc(40% + 705px) 300px;
+  background-position: calc(50% + 705px) 200px;
 }
 
 .hero__container {
