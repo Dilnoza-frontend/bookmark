@@ -398,6 +398,7 @@ select:-webkit-autofill:focus {
   align-items: center;
   padding-top: 20px;
   padding-bottom: 13px;
+  padding-right: 25px;
 }
 
 .accordion__item-title {
@@ -631,6 +632,10 @@ select:-webkit-autofill:focus {
 /* FAQ */
 .faq {
   padding-bottom: 150px;
+}
+
+.faq__section-info {
+  margin-bottom: 56px;
 }
 
 .faq__inner {
