@@ -744,7 +744,7 @@ select:-webkit-autofill:focus {
 .subscription__field:focus ~ .subscription__error,
 .subscription__field:valid ~ .subscription__error,
 .subscription__field:placeholder-shown ~ .subscription__error {
-  display: block;
+  display: none;
 }
 
 @media
